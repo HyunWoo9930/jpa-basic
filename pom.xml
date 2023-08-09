@@ -23,6 +23,14 @@
 		</dependency>
 
 		<dependency>
+			<!-- JPA 하이버네이트 -->
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-entitymanager</artifactId>
+			<version>5.3.10.Final</version>
+		</dependency>
+
+		<dependency>
+			<!-- H2 데이터베이스 -->
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
 			<scope>runtime</scope>
